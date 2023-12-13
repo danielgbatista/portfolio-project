@@ -20,8 +20,8 @@
     ],
     "paths": {
       "molecule-components": ["./src/app/components/molecule/*"],
-      "atom-components": ["./src/app/components/molecule/*"],
-      "templates-components": ["./src/app/components/molecule/*"],
+      "atom-components": ["./src/app/components/atom/*"],
+      "templates-components": ["./src/app/components/templates/*"],
       "server": ["./src/server/"],
     }
   },
