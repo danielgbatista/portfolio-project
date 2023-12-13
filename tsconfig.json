@@ -19,7 +19,10 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "molecule-components": ["./src/app/components/molecule/*"],
+      "atom-components": ["./src/app/components/molecule/*"],
+      "templates-components": ["./src/app/components/molecule/*"],
+      "server": ["./src/server/"],
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
