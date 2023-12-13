@@ -19,8 +19,8 @@
       }
     ],
     "paths": {
-      "@molecule-components/*": ["./src/app/components/molecule/*"],
-      "@atom-components/*": ["./src/app/components/atom/*"],
+      "@molecule-components/*": ["./src/app/components/molecules/*"],
+      "@atom-components/*": ["./src/app/components/atoms/*"],
       "@templates-components/*": ["./src/app/components/templates/*"],
       "@server/*": ["./src/server/*"]
     }
