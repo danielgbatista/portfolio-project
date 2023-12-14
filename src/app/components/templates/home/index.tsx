@@ -5,10 +5,10 @@ import { KeyboardArrowRight } from "@mui/icons-material";
 
 export const Home: FC = () => {
   return (
-    <section className="w-full h-[70vh] flex flex-col-reverse justify-center items-center gap-10 py-14 tablet:h-[50vh] tablet:flex-row">
-      <div className="w-[90%] h-auto flex flex-col justify-center items-center gap-4 tablet:w-[60%] laptop:w-[45%]">
-        <div className="w-full h-auto flex flex-col items-center justify-center gap-2 leading-tight">
-          <h1 className="font-bold text-2xl tablet:text-3xl leading-tight">
+    <section className="w-full h-[66vh] flex flex-col-reverse justify-center items-center gap-16 py-14 tablet:h-[50vh] tablet:flex-row">
+      <div className="w-[90%] h-auto flex flex-col justify-center items-center gap-4 tablet:w-[56%] laptop:w-[45%] desktop:w-[37%]">
+        <div className="w-full h-auto flex flex-col justify-center gap-2 leading-tight text-primary">
+          <h1 className="font-bold text-2xl tablet:text-3xl">
             Olá! 👋 Sou o Daniel Batista, sou Dev. Full Stack.
           </h1>
           <p className="font-bold text-base tablet:text-xl">
@@ -20,7 +20,7 @@ export const Home: FC = () => {
           <Button label="CONTATE-ME" outlined />
         </div>
       </div>
-      <div className="w-full h-auto flex justify-center items-center tablet:w-[20%]">
+      <div className="w-[90%] h-auto flex justify-center items-center tablet:w-[20%] laptop:justify-end">
         <Image
           src={"/not-found-image.jpg"}
           width={180}

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const Header: FC = () => {
   return (
-    <header className="w-full h-auto flex justify-around p-4 gap-12">
+    <header className="w-full h-auto flex justify-around p-4">
       <div className="">
         <Image
           src={"/not-found-image.jpg"}
@@ -14,7 +14,7 @@ export const Header: FC = () => {
         />
       </div>
 
-      <nav className="flex items-center">
+      <nav className="hidden items-center tablet:flex">
         <ul className="flex gap-10">
           <li className="flex items-center">Inicio</li>
           <li className="flex items-center">Sobre mim</li>

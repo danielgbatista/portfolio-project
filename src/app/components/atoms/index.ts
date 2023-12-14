@@ -1,2 +1,3 @@
 export * from "./button";
-export * from "./sectionIndicator";
+export * from "./section-indicator";
+export * from "./timeline-content";

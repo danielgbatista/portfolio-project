@@ -20,6 +20,7 @@
     ],
     "paths": {
       "@molecule-components/*": ["./src/app/components/molecules/*"],
+      "@organisms-components/*": ["./src/app/components/organisms/*"],
       "@atom-components/*": ["./src/app/components/atoms/*"],
       "@templates-components/*": ["./src/app/components/templates/*"],
       "@server/*": ["./src/server/*"]
